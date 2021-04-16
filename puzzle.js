@@ -147,7 +147,7 @@
 		tapPanel(no);
 		// 完成か否かを判定して，完成ならメッセージを表示．
 		if (clear(panels)) {
-			document.getElementById("message").innerHTML = "<p>\\おめでとうございます。/<br>\\完成です！/ </p>";
+			document.getElementById("message").innerHTML = "<p>\\おめでとうございます。/<br>\\完成です！/<\/p>";
 			context.drawImage(image, 0, 0);
 			
 		}
